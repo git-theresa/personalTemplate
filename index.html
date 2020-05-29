@@ -1,224 +1,980 @@
 <!DOCTYPE html>
-<html>
-<title>W3.CSS Template</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
-.w3-row-padding img {margin-bottom: 12px}
-/* Set the width of the sidebar to 120px */
-.w3-sidebar {width: 120px;background: #222;}
-/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 120px}
-/* Remove margins from "page content" on small screens */
-@media only screen and (max-width: 600px) {#main {margin-left: 0}}
-</style>
-<body class="w3-black">
+<html lang="zxx" class="no-js">
 
-<!-- Icon Bar (Sidebar - hidden on small screens) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-  <!-- Avatar image in top left corner -->
-  <img src="assets/pic.png" style="width:100%">
-  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <i class="fa fa-home w3-xxlarge"></i>
-    <p>HOME</p>
-  </a>
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-user w3-xxlarge"></i>
-    <p>ABOUT</p>
-  </a>
-  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-eye w3-xxlarge"></i>
-    <p>PHOTOS</p>
-  </a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-envelope w3-xxlarge"></i>
-    <p>CONTACT</p>
-  </a>
-</nav>
+    <head>
 
-<!-- Navbar on small screens (Hidden on medium and large screens) -->
-<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
-    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
-    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
-  </div>
-</div>
+    	<!-- Metas -->
+        <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<meta name="keywords" content="HTML5 Template Stark onepage themeforest" />
+		<meta name="description" content="Stark - Onepage Multi-Purpose HTML5 Template" />
+		<meta name="author" content="" />
 
-<!-- Page Content -->
-<div class="w3-padding-large" id="main">
-  <!-- Header/Home -->
-  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Theresa   E.</h1>
-    <p>Full-Stack Web Developer.</p>
-    <img src="assets/pic.png" alt="me" class="me-image" width="992" height="1108">
-  </header>
+		<!-- Title  -->
+		<title>Eatherly</title>
 
-  <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-    <h2 class="w3-text-light-grey">My Name</h2>
-    <hr style="width:200px" class="w3-opacity">
-    <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
-      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
-    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
-    <p class="w3-wide">Blank</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
-    </div>
-    <p class="w3-wide">Web Design</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
-    </div>
-    <p class="w3-wide">JavaScript</p>
-    <div class="w3-white">
-      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
-    </div><br>
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="assets/img/portfolio/favicon.png" />
+
+		<!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800" rel="stylesheet">
+
+		<!-- Plugins -->
+		<link rel="stylesheet" href="assets/css/plugins/plugins.css" />
+
+        <!-- Core Style Css -->
+        <link rel="stylesheet" href="assets/css/plugins/style.css" />
+
+
+        <script src="assets/js/modernizr-custom.js"></script>
+
+    </head>
+
+    <body>
+
+
+        <!-- =====================================
+        ==== Start Loading -->
+
+        <div class="loading valign text-center">
+            <div class="full-width">
+                <img src="assets/img/portfolio/loading.svg" alt="">
+            </div>
+        </div>
+
+        <!-- End Loading ====
+        ======================================= -->
+
+
+
+       <!-- =====================================
+        ==== Start Navbar -->
+        
+    	<nav class="pages-nav">
+            <div class="logo">
+                <a href="#0">
+                    <img src="assets/img/portfolio/logo.png" alt="">
+                </a>
+            </div>
+            <div class="pages-nav__item nav__list-item"><a class="link link--page hover-target" href="#page-home">Home</a></div>
+            <div class="pages-nav__item nav__list-item"><a class="link link--page hover-target" href="#page-about">About</a></div>
+            <div class="pages-nav__item nav__list-item"><a class="link link--page hover-target" href="#page-resume">Resume</a></div>
+            <div class="pages-nav__item nav__list-item"><a class="link link--page hover-target" href="#page-work">Portfolio</a></div>
+            <div class="pages-nav__item nav__list-item"><a class="link link--page hover-target" href="#page-contact">Contact</a></div>
+        </nav>
+
+        <!-- End Navbar ====
+        ======================================= -->
+
+
+
+        <!-- =====================================
+        ==== Start pages-stack -->
+        
+        <div class="pages-stack">
+
+            <!-- Home -->
+            <div class="page home" id="page-home">
+                <div class="container-fluid">
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <div class="img valign">
+                                <div class="pattern">
+                                    <img src="assets/img/portfolio/pic.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="content section-padding valign">
+                                <div class="caption">
+                                    <h6>Hey There!</h6>
+                                    <h1>I'm Theresa Eatherly</h1>
+                                    <p>I am Theresa Eatherly. Impossible considered invitation him men instrument saw celebrated unpleasant. Put rest and must set kind next many near nay. He exquisite continued explained middleton am. Impossible considered invitation him men instrument saw celebrated unpleasant.</p>
+
+                                    <a href="#0" class="butn butn-bg mt-30">
+                                        <span>Download Resume</span>
+                                    </a>
+                                    <div class="social">
+                                        <a href="#0" class="icon">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                        <a href="#0" class="icon">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                        <a href="#0" class="icon">
+                                            <i class="fas fa-basketball-ball"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- /Home -->
+
+            <!-- About -->
+            <div class="page about" id="page-about">
+                <div class="container-fluid">
+                    <div class="row">
+
+                        <div class="col-lg-7">
+                            <div class="content section-padding">
+
+                                <div class="section-head">
+                                    <h5><span>A</span>bout Me</h5>
+                                    <h3>About</h3>
+                                </div>
+                                
+                                <div class="text-center">
+                                    <h5 class="intro">I am a full stack <b>developer</b> from Nashville, TN. I love to talk with you about our unique services.</h5>
+                                    <p class="mb-15">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque.</p>
+                                    <a href="#0" class="butn butn-bg">
+                                        <span>Download Resume</span>
+                                    </a>
+                                    <a href="#0" class="butn butn-bord">
+                                        <span>Hire Me!</span>
+                                    </a>
+                                </div>
+
+                                <div class="inform">
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="item mb-sm30">
+                                                <span class="icon"><i class="fas fa-phone"></i></span>
+                                                <div class="cont">
+                                                    <h6>Phone</h6>
+                                                    <p>+615 310 1384</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="item mb-md30">
+                                                <span class="icon"><i class="fas fa-envelope"></i></span>
+                                                <div class="cont">
+                                                    <h6>Email</h6>
+                                                    <p>t.eatherly@gmail.com</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-6 offset-md-0 offset-sm-3">
+                                            <div class="item">
+                                                <span class="icon"><i class="fas fa-check-circle"></i></span>
+                                                <div class="cont">
+                                                    <h6>Freelancer</h6>
+                                                    <p>Available</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="services mt-80">
+                                    <div class="sub-head mb-50">
+                                        <h5>What <span>I Do</span> ?</h5>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="item">
+                                                <span class="icon ti-palette"></span>
+                                                <div class="cont">
+                                                    <h6>Web Design</h6>
+                                                    <p>Lorem ipsum consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit Maecenas in pulvinar neque.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="item">
+                                                <span class="icon ti-desktop"></span>
+                                                <div class="cont">
+                                                    <h6>Web Development</h6>
+                                                    <p>Lorem ipsum consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit Maecenas in pulvinar neque.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="item">
+                                                <span class="icon ti-shield"></span>
+                                                <div class="cont">
+                                                    <h6>Branding</h6>
+                                                    <p>Lorem ipsum consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit Maecenas in pulvinar neque.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="item">
+                                                <span class="icon ti-stats-up"></span>
+                                                <div class="cont">
+                                                    <h6>Marketing</h6>
+                                                    <p>Lorem ipsum consectetur adipiscing elit dolor sit amet, consectetur adipiscing elit Maecenas in pulvinar neque.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="price mt-50">
+                                    <div class="sub-head mb-50">
+                                        <h5>My <span>Offers</span></h5>
+                                    </div>
+
+                                    <div class="pricing-tables text-center full-width">
+
+                                        <div class="row">
+                
+                                            <div class="col-md-6">
+                                                <div class="item mb-sm50">
+                                                    <div class="type">
+                                                        <h5>Basic</h5>
+                                                    </div>
+                
+                                                    <div class="value">
+                                                        <h3><span>$</span>10</h3>
+                                                        <span class="per">/ Mo</span>
+                                                        <p>Lorem Ipsum is simply text.</p>
+                                                    </div>
+                
+                                                    <div class="features">
+                                                        <ul>
+                                                            <li>10 GB Disk Space</li>
+                                                            <li>15 Domain Names</li>
+                                                            <li>Enhanced Security</li>
+                                                            <li class="del">Unlimited Support</li>
+                                                        </ul>
+                                                    </div>
+                
+                                                    <div class="order">
+                                                        <a href="#0" class="butn butn-bord">
+                                                            <span>Get Started</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                
+                                            <div class="col-md-6">
+                                                <div class="item active">
+                
+                                                    <div class="best">
+                                                        <span>Best Value</span>
+                                                    </div>
+                
+                                                    <div class="type">
+                                                        <h5>Standard</h5>
+                                                    </div>
+                
+                                                    <div class="value">
+                                                        <h3><span>$</span>30</h3>
+                                                        <span class="per">/ Mo</span>
+                                                        <p>Lorem Ipsum is simply text.</p>
+                                                    </div>
+                
+                                                    <div class="features">
+                                                        <ul>
+                                                            <li>100 GB Disk Space</li>
+                                                            <li>30 Domain Names</li>
+                                                            <li>Enhanced Security</li>
+                                                            <li>Unlimited Support</li>
+                                                        </ul>
+                                                    </div>
+                
+                                                    <div class="order">
+                                                        <a href="#0" class="butn butn-bg">
+                                                            <span>Get Started</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="testimonials mt-80">
+                                    <div class="sub-head mb-50">
+                                        <h5><span>Testi</span>monials</h5>
+                                    </div>
+
+                                    <div class="owl-carousel owl-theme">
+                                        <div class="item">
+                                                <p><span class="icon ti-quote-left"></span> " Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condi tincidunt sed euismod nibh Quisque volutpat condimentum velit class aptent taciti sociosqu ad litora. " <span class="icon ti-quote-right"></span></p>
+                                            <div class="client-area">
+                                                <h6>Alex Smith</h6>
+                                                <span>Envato Customer</span>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                                <p><span class="icon ti-quote-left"></span> " Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condi tincidunt sed euismod nibh Quisque volutpat condimentum velit class aptent taciti sociosqu ad litora. " <span class="icon ti-quote-right"></span></p>
+                                            <div class="client-area">
+                                                <h6>Sam Smith</h6>
+                                                <span>Envato Customer</span>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                                <p><span class="icon ti-quote-left"></span> " Nulla metus metus ullamcorper vel tincidunt sed euismod nibh Quisque volutpat condi tincidunt sed euismod nibh Quisque volutpat condimentum velit class aptent taciti sociosqu ad litora. " <span class="icon ti-quote-right"></span></p>
+                                            <div class="client-area">
+                                                <h6>Alex Martin</h6>
+                                                <span>Envato Customer</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="numbers mt-80">
+                                    <div class="sub-head mb-50">
+                                        <h5>Fun <span>Facts</span></h5>
+                                    </div>
+
+                                    <div class="facts">
+                                        <div class="row">
+                                            <div class="col-md-4 col-sm-6">
+                                                <div class="item text-center mb-sm30">
+                                                    <span class="icon ti-heart"></span>
+                                                    <h4 class="count">368</h4>
+                                                    <p>Happy Clients</p>
+                                                </div>
+                                            </div>
+                        
+                                            <div class="col-md-4 col-sm-6">
+                                                <div class="item text-center mb-md30">
+                                                    <span class="icon ti-layers-alt"></span>
+                                                    <h4 class="count">30</h4>
+                                                    <p>Projects Completed</p>
+                                                </div>
+                                            </div>
+                        
+                                            <div class="col-md-4 col-sm-6 offset-md-0 offset-sm-3">
+                                                <div class="item text-center">
+                                                    <span class="icon ti-import"></span>
+                                                    <h4 class="count">900</h4>
+                                                    <p>Cups of Coffee</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-5 simg bg-img" data-background="assets/img/portfolio/1.jpg"></div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- /About -->
+
+            <!-- Resume -->
+            <div class="page resume" id="page-resume">
+                <div class="container-fluid">
+                    <div class="row">
+
+                        <div class="col-lg-7">
+                            <div class="content section-padding">
+
+                                <div class="section-head">
+                                    <h5><span>R</span>esume</h5>
+                                    <h3>Resume</h3>
+                                </div>
+
+                                <div class="clmn">
+                                    
+                                    <div class="sub-head mb-50">
+                                        <h5><span>Exper</span>ience</h5>
+                                    </div>
+
+                                    <div class="exp">
+                                        <div>
+                                            <div class="row">
+                                                <div class="col-md-5 col-sm-3">
+                                                    <span class="date">2016 - <b>Current</b></span>
+                                                </div>
+                                                <div class="col-md-7 col-sm-9 right">
+                                                    <h6>Working as Art Director</h6>
+                                                    <h4>Lead Ui/Ux Designer</h4>
+                                                    <p>All the Lorem Ipsum on the Internet tend to repeat chunks as necessary, making this on the Internet generator.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="row">
+                                                <div class="col-md-5 col-sm-3">
+                                                    <span class="date">2014 - <b>2016</b></span>
+                                                </div>
+                                                <div class="col-md-7 col-sm-9 right">
+                                                    <h6>Working as Art Director</h6>
+                                                    <h4>Senior Ui/Ux Designer</h4>
+                                                    <p>All the Lorem Ipsum on the Internet tend to repeat chunks as necessary, making this on the Internet generator.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="row">
+                                                <div class="col-md-5 col-sm-3">
+                                                    <span class="date">2012 - <b>2014</b></span>
+                                                </div>
+                                                <div class="col-md-7 col-sm-9 right">
+                                                    <h6>Working as Art Director</h6>
+                                                    <h4>Junior Front-End</h4>
+                                                    <p>All the Lorem Ipsum on the Internet tend to repeat chunks as necessary, making this on the Internet generator.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="clmn">
+                                    
+                                    <div class="sub-head mb-50">
+                                        <h5>Educ<span>ation</span></h5>
+                                    </div>
+
+                                    <div class="edu">
+                                        <div>
+                                            <div class="row">
+                                                <div class="col-md-5 col-sm-3">
+                                                    <span class="date">2020</span>
+                                                </div>
+                                                <div class="col-md-7 col-sm-9 right">
+                                                    <h6>at Playground Design</h6>
+                                                    <h4>Vanderbilt University</h4>
+                                                    <p>All the Lorem Ipsum on the Internet tend to repeat chunks as necessary, making this on the Internet generator.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="row">
+                                                <div class="col-md-5 col-sm-3">
+                                                    <span class="date">2008 - <b>2010</b></span>
+                                                </div>
+                                                <div class="col-md-7 col-sm-9 right">
+                                                    <h6>at Playground Design</h6>
+                                                    <h4>Design and Art</h4>
+                                                    <p>All the Lorem Ipsum on the Internet tend to repeat chunks as necessary, making this on the Internet generator.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="skills mt-80">
+                                    <div class="sub-head mb-50">
+                                        <h5>Best <span>Skills</span></h5>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="skill mb-md50">
+                                                <div class="skill-item">
+                                                    <h5>Web Design</h5>
+                                                    <div class="skill-progress">
+                                                        <div class="progres" data-value="90%"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="skill-item">
+                                                    <h5>Branding</h5>
+                                                    <div class="skill-progress">
+                                                        <div class="progres" data-value="75%"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="skill-item">
+                                                    <h5>Development</h5>
+                                                    <div class="skill-progress">
+                                                        <div class="progres" data-value="85%"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="skill">
+                                                <div class="skill-item">
+                                                    <h5>HTML / jQuery</h5>
+                                                    <div class="skill-progress">
+                                                        <div class="progres" data-value="95%"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="skill-item">
+                                                    <h5>NodeJs</h5>
+                                                    <div class="skill-progress">
+                                                        <div class="progres" data-value="85%"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="skill-item">
+                                                    <h5>Php / Mysql</h5>
+                                                    <div class="skill-progress">
+                                                        <div class="progres" data-value="75%"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                            </div>
+                        </div>
+                        <div class="col-lg-5 simg bg-img" data-background="assets/img/portfolio/2.jpg"></div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- /Resume -->
+
+            <!-- Portfolio -->
+            <div class="page portfolio" id="page-work">
+                <div class="container-fluid">
+                    <div class="row">
+
+                        <div class="col-lg-7">
+                            <div class="content section-padding">
+
+                                <div class="section-head">
+                                    <h5><span>P</span>ortfolio</h5>
+                                    <h3>Works</h3>
+                                </div>
+
+                                <!-- filter links -->
+                                <div class="filtering text-right full-width">
+                                    <div class="filter">
+                                        <span data-filter='*' class="active">All</span>
+                                        <span data-filter='.brand'>Brand</span>
+                                        <span data-filter='.web'>Design</span>
+                                        <span data-filter='.graphic'>Graphic</span>
+                                    </div>
+                                </div>
     
-    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">11+</span><br>
-        Partners
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">55+</span><br>
-        Projects Done
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">89+</span><br>
-        Happy Clients
-      </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">150+</span><br>
-        Meetings
-      </div>
-    </div>
+                                <!-- gallery -->
+                                <div class="gallery row">
+            
+                                    <!-- gallery item -->
+                                    <div class="items col-md-6 graphic">
+                                        <div class="item-img">
+                                            <img src="assets/img/portfolio/1.jpg" alt="image">
+                                            <div class="item-img-overlay">
+                                                <div class="overlay-info full-width">
+                                                    <div class="des">
+                                                        <p>Logo | Branding</p>
+                                                        <h6>Creative Web Design</h6>
+                                                    </div>
+                                                    <a href="assets/img/portfolio/1.jpg" class="popimg">
+                                                        <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <!-- gallery item -->
+                                    <div class="items col-md-6 web">
+                                        <div class="item-img">
+                                            <img src="assets/img/portfolio/2.jpg" alt="image">
+                                            <div class="item-img-overlay">
+                                                <div class="overlay-info full-width">
+                                                    <div class="des">
+                                                        <p>Logo | Branding</p>
+                                                        <h6>Creative Web Design</h6>
+                                                    </div>
+                                                    <a href="assets/img/portfolio/2.jpg" class="popimg">
+                                                        <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <!-- gallery item -->
+                                    <div class="items col-md-6 brand">
+                                        <div class="item-img">
+                                            <img src="assets/img/portfolio/3.jpg" alt="image">
+                                            <div class="item-img-overlay">
+                                                <div class="overlay-info full-width">
+                                                    <div class="des">
+                                                        <p>Logo | Branding</p>
+                                                        <h6>Creative Web Design</h6>
+                                                    </div>
+                                                    <a href="assets/img/portfolio/3.jpg" class="popimg">
+                                                        <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <!-- gallery item -->
+                                    <div class="items col-md-6 graphic">
+                                        <div class="item-img">
+                                            <img src="assets/img/portfolio/4.jpg" alt="image">
+                                            <div class="item-img-overlay">
+                                                <div class="overlay-info full-width">
+                                                    <div class="des">
+                                                        <p>Logo | Branding</p>
+                                                        <h6>Creative Web Design</h6>
+                                                    </div>
+                                                    <a href="assets/img/portfolio/4.jpg" class="popimg">
+                                                        <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <!-- gallery item -->
+                                    <div class="items col-md-6 web">
+                                        <div class="item-img">
+                                            <img src="assets/img/portfolio/5.jpg" alt="image">
+                                            <div class="item-img-overlay">
+                                                <div class="overlay-info full-width">
+                                                    <div class="des">
+                                                        <p>Logo | Branding</p>
+                                                        <h6>Creative Web Design</h6>
+                                                    </div>
+                                                    <a href="assets/img/portfolio/5.jpg" class="popimg">
+                                                        <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <!-- gallery item -->
+                                    <div class="items col-md-6 brand">
+                                        <div class="item-img">
+                                            <img src="assets/img/portfolio/6.jpg" alt="image">
+                                            <div class="item-img-overlay">
+                                                <div class="overlay-info full-width">
+                                                    <div class="des">
+                                                        <p>Logo | Branding</p>
+                                                        <h6>Creative Web Design</h6>
+                                                    </div>
+                                                    <a href="assets/img/portfolio/6.jpg" class="popimg">
+                                                        <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-    <button class="w3-button w3-light-grey w3-padding-large w3-section">
-      <i class="fa fa-download"></i> Download Resume
-    </button>
-    
-    <!-- Grid for pricing tables -->
-    <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">5GB Storage</li>
-          <li class="w3-padding-16">Mail Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 10</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
+                                    <!-- gallery item -->
+                                    <div class="items col-md-6 brand">
+                                        <div class="item-img">
+                                            <img src="assets/img/portfolio/7.jpg" alt="image">
+                                            <div class="item-img-overlay">
+                                                <div class="overlay-info full-width">
+                                                    <div class="des">
+                                                        <p>Logo | Branding</p>
+                                                        <h6>Creative Web Design</h6>
+                                                    </div>
+                                                    <a href="assets/img/portfolio/7.jpg" class="popimg">
+                                                        <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <!-- gallery item -->
+                                    <div class="items col-md-6 graphic">
+                                        <div class="item-img">
+                                            <img src="assets/img/portfolio/8.jpg" alt="image">
+                                            <div class="item-img-overlay">
+                                                <div class="overlay-info full-width">
+                                                    <div class="des">
+                                                        <p>Logo | Branding</p>
+                                                        <h6>Creative Web Design</h6>
+                                                    </div>
+                                                    <a href="assets/img/portfolio/8.jpg" class="popimg">
+                                                        <span class="icon"><i class="fas fa-long-arrow-alt-right"></i></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                </div>
 
-      <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">50GB Storage</li>
-          <li class="w3-padding-16">Endless Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 25</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-    <!-- End Grid/Pricing tables -->
-    </div>
-    
-    <!-- Testimonials -->
-    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
-    <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">J.D.E.</span> VP Sales at P&E Distributors, Inc.</p>
-    <p>Theresa Eatherly saved us from a web disaster.</p><br>
-    
-    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Josh  E.</span> President EDA.</p>
-    <p>No one is better than Theresa.</p>
-  <!-- End About Section -->
-  </div>
-  
-  <!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-content" id="photos">
-    <h2 class="w3-text-light-grey">My Photos</h2>
-    <hr style="width:200px" class="w3-opacity">
+                            </div>
+                        </div>
+                        <div class="col-lg-5 simg bg-img" data-background="assets/img/portfolio/3.jpg"></div>
 
-    <!-- Grid for photos -->
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
-        <img src="/w3images/wedding.jpg" style="width:100%">
-        <img src="/w3images/rocks.jpg" style="width:100%">
-        <img src="/w3images/sailboat.jpg" style="width:100%">
-      </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /Portfolio -->
 
-      <div class="w3-half">
-        <img src="/w3images/underwater.jpg" style="width:100%">
-        <img src="/w3images/chef.jpg" style="width:100%">
-        <img src="/w3images/wedding.jpg" style="width:100%">
-        <img src="/w3images/p6.jpg" style="width:100%">
-      </div>
-    <!-- End photo grid -->
-    </div>
-  <!-- End Portfolio Section -->
-  </div>
+            <!-- blog -->
+            <div class="page blog" id="page-blog">
+                <div class="container-fluid">
+                    <div class="row">
 
-  <!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-    <h2 class="w3-text-light-grey">Contact Me</h2>
-    <hr style="width:200px" class="w3-opacity">
+                        <div class="col-lg-7">
+                            <div class="content section-padding">
 
-    <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Nashville, TN</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: 615 31.01384</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: T.eatherly@gmail.com</p>
-    </div><br>
-    <p>Lets get in touch. Send me a message:</p>
+                                <div class="section-head">
+                                    <h5><span>B</span>log</h5>
+                                    <h3>Blog</h3>
+                                </div>
 
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
-      <p>
-        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </p>
-    </form>
-  <!-- End Contact Section -->
-  </div>
-  
-    <!-- Footer -->
-  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-  <!-- End footer -->
-  </footer>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="item">
+                                            <div class="post-img">
+                                                <img src="assets/img/blog/1.jpg" alt="">
+                                                <a href="#0" class="date">
+                                                    <span>06</span>
+                                                    <span>August</span>
+                                                </a>
+                                            </div>
+                                            <div class="cont">
+                                                <a href="#0" class="tags">#WordPress</a>
+                                                <h4>Master These Awesome New Skills in April 2019</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                <a href="#0" class="more">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="item">
+                                            <div class="post-img">
+                                                <img src="assets/img/blog/2.jpg" alt="">
+                                                <a href="#0" class="date">
+                                                    <span>06</span>
+                                                    <span>August</span>
+                                                </a>
+                                            </div>
+                                            <div class="cont">
+                                                <a href="#0" class="tags">#WordPress</a>
+                                                <h4>International Women’s Day: Celebrating Women In Design</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                <a href="#0" class="more">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="item">
+                                            <div class="post-img">
+                                                <img src="assets/img/blog/3.jpg" alt="">
+                                                <a href="#0" class="date">
+                                                    <span>06</span>
+                                                    <span>August</span>
+                                                </a>
+                                            </div>
+                                            <div class="cont">
+                                                <a href="#0" class="tags">#WordPress</a>
+                                                <h4>How Designers Are Amplifying Their Portfolios in 2019</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                <a href="#0" class="more">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="item mb-0">
+                                            <div class="post-img">
+                                                <img src="img/blog/4.jpg" alt="">
+                                                <a href="#0" class="date">
+                                                    <span>06</span>
+                                                    <span>August</span>
+                                                </a>
+                                            </div>
+                                            <div class="cont">
+                                                <a href="#0" class="tags">#WordPress</a>
+                                                <h4>Master These Awesome New Skills in April 2019</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                                <a href="#0" class="more">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
 
-<!-- END PAGE CONTENT -->
-</div>
+                                </div>
 
-</body>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 simg bg-img" data-background="assets/img/blog/4.jpg"></div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- /blog -->
+
+            <!-- Contact -->
+            <div class="page contact" id="page-contact">
+                <div class="container-fluid">
+                    <div class="row">
+
+                        <div class="col-lg-7">
+                            <div class="content section-padding">
+
+                                <div class="section-head">
+                                    <h5><span>C</span>ontact Me</h5>
+                                    <h3>Contact</h3>
+                                </div>
+
+                                <div class="contact-info">
+                                    <div class="sub-head mb-50">
+                                        <h5>Contact <span> Info</span></h5>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="item">
+                                                <span class="icon"><i class="fas fa-phone"></i></span>
+                                                <div class="cont">
+                                                    <h6>Phone</h6>
+                                                    <p>+615 310 1384</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="item">
+                                                <span class="icon"><i class="fas fa-envelope"></i></span>
+                                                <div class="cont">
+                                                    <h6>Email</h6>
+                                                    <p>t.eatherly@gmail.com</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="item">
+                                                <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+                                                <div class="cont">
+                                                    <h6>Address</h6>
+                                                    <p>301 Harpeth View Trail, Kingston Springs TN</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="item">
+                                                <span class="icon"><i class="fas fa-check-circle"></i></span>
+                                                <div class="cont">
+                                                    <h6>Freelancer</h6>
+                                                    <p>Available</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                        
+                                </div>
+
+                                <form class="form" id="contact-form" method="post" action="contact.php">
+
+                                    <div class="sub-head mb-50 mt-30">
+                                        <h5>Get <span> In </span> Touch</h5>
+                                    </div>
+        
+                                    <div class="messages"></div>
+        
+                                    <div class="controls">
+        
+                                        <div class="row">
+        
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <input id="form_name" type="text" name="name" placeholder="Name" required="required">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="form-group">
+                                                    <input id="form_email" type="email" name="email" placeholder="Email" required="required">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input id="form_subject" type="text" name="subject" placeholder="Subject">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <textarea id="form_message" name="message" placeholder="Message" rows="4" required="required"></textarea>
+                                                </div>
+                                            </div>
+        
+                                            <div class="col-md-12">
+                                                <button type="submit" class="butn butn-bg"><span>Send Message</span></button>
+                                            </div>
+        
+                                        </div>                             
+                                    </div>
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-5 simg bg-img" data-background="assets/img/portfolio/5.jpg"></div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- /Contact -->
+
+        </div>
+
+        <!-- End pages-stack ====
+        ======================================= -->
+
+
+
+        <!-- =====================================
+        ==== Start nav-button -->
+
+	    <div class="nav-button">
+            <button class="menu-button menu-icon hover-target" id="menu-button"><span>Menu</span></button>
+        </div>
+
+        <!-- End nav-button ====
+        ======================================= -->
+
+
+
+        <!-- =====================================
+        ==== Start cursor -->
+
+        <div class='cursor' id="cursor"></div>
+        <div class='cursor2' id="cursor2"></div>
+        <div class='cursor3' id="cursor3"></div>
+
+        <!-- End cursor ====
+        ======================================= -->
+
+
+       
+        <!-- jQuery -->
+        <script src="assets/js/jquery-3.0.0.min.js"></script>
+        <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+
+        <!-- popper.min -->
+        <script src="assets/js/popper.min.js"></script>
+
+        <!-- bootstrap -->
+        <script src="assets/js/bootstrap.min.js"></script>
+
+        <!-- classie -->
+        <script src="assets/js/classie.js"></script>
+
+        <!-- Main -->
+        <script src="assets/js/main.js"></script>
+
+        <!-- jquery.waypoints.min -->
+        <script src="assets/js/jquery.waypoints.min.js"></script>
+
+        <!-- jquery.counterup.min -->
+        <script src="assets/js/jquery.counterup.min.js"></script>
+
+        <!-- owl carousel -->
+        <script src="assets/js/owl.carousel.min.js"></script>
+
+        <!-- isotope.pkgd.min js -->
+        <script src="assets/js/isotope.pkgd.min.js"></script>
+
+        <!-- jquery.magnific-popup.min js -->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+        <!-- validator js -->
+        <script src="assets/js/validator.js"></script>
+
+        <!-- custom scripts -->
+        <script src="assets/js/scripts.js"></script>
+
+    </body>
 </html>
